@@ -5,79 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Pushpendra Sharma</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navigation container">
+    <nav class="navigation nav-container">
       <div class="nav-brand"><a href="/">IAmDeveloper</a></div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
+      <ul class="list-non-bullet nav-list-container">
+        <li class="list-item-inline nav-list-item">
           <a class="link link-active" href="/">Home</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="/projects.html">Projects</a>
+        <li class="list-item-inline nav-list-item">
+          <a class="link" href="./components/projects.html">Projects</a>
         </li>
-        <li class="list-item-inline">
-          <a class="link" href="/blogs.html">Blogs</a>
+        <li class="list-item-inline nav-list-item">
+          <a class="link" href="./components/blogs.html">Blogs</a>
         </li>
       </ul>
     </nav>
 
-    <header class="hero">
-      <img class="hero-img" src="images/hero.svg">
-      <h1 class="hero-heading">
-        Pushpendra the <span class="heading-inverted"> web developer</span>
-      </h1>
-    </header>
+    <main class="main-container">
+      <header class="main-item container-center">
+        <img class="hero-img" src="./images/hero.svg" alt="hero-image" />
+        <h1 class="hero-heading">
+          Hi, I am <span class="heading-inverted">Pushpendra</span>
+        </h1>
+        <p class="description">
+          I'm learning programming & front end web development.
+        </p>
+      </header>
 
-    <section class="section ow">
-      <div class="container container-center">
-        <h1>technologies</h1>
-        <p>
+      <section class="main-item ow container-center">
+        <h2>technologies</h2>
+        <p class="description">
           I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
           Web Hosting.
         </p>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="container container-center">
-        <h1>projects</h1>
-        <p>
+      <section class="main-item container-center">
+        <h2>projects</h2>
+        <p class="description">
           I like to showcase my work and thus, you can see my projects hosted
           online.
         </p>
-        <a class="link link-primary" href="/projects.html">See Projects</a>
-      </div>
-    </section>
+        <div class="links">
+          <a class="link link-primary" href="/projects.html">See Projects</a>
+        </div>
+      </section>
 
-    <section class="section ow">
-      <div class="container container-center">
-        <h1>blogs</h1>
-        <p>
+      <section class="main-item ow container-center">
+        <h2>blogs</h2>
+        <p class="description">
           I am also working on some technical and non techincal blogs. I like to
           document my journey of learning.
         </p>
-        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
-      </div>
-    </section>
+        <div class="links">
+          <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
+      </section>
+    </main>
 
-    <footer class="footer">
+    <footer class="footer footer-container">
       <div class="footer-header">social media presence</div>
-      <ul class="social-links list-non-bullet">
+      <ul class="list-non-bullet footer-item">
         <li class="list-item-inline">
-          <a class="link" href="https://github.com/Pushpendra-Sharma"> github </a>
+          <a class="link" href="https://github.com/Pushpendra-Sharma">github
+          </a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="https://twitter.com/100Pushpendra"> twitter </a>
+          <a class="link" href="https://twitter.com/100Pushpendra">twitter
+          </a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="https://www.linkedin.com/in/ietl-pushpendra-sharma/">
-            linkedin
+          <a class="link" href="https://www.linkedin.com/in/ietl-pushpendra-sharma/">linkedin
           </a>
         </li>
       </ul>
     </footer>
-  
-</body>
+  </body>
 </html>
